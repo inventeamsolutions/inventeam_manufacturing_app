@@ -33,6 +33,10 @@ app_license = "MIT"
 # doctype_list_js = {"doctype" : "public/js/doctype_list.js"}
 # doctype_tree_js = {"doctype" : "public/js/doctype_tree.js"}
 # doctype_calendar_js = {"doctype" : "public/js/doctype_calendar.js"}
+# include js in doctype views
+doctype_js = {
+	'Stock Entry': 'public/js/custom_stock_entry_script.js'
+	}
 
 # Home Pages
 # ----------
@@ -125,6 +129,11 @@ app_license = "MIT"
 #		"on_trash": "method"
 #	}
 # }
+doc_events = {
+    "Pick List": {
+        "on_submit": "inventeam_manufacturing_app.util.custom_picklist_script.on_submit"
+    }
+}
 
 # Scheduled Tasks
 # ---------------
