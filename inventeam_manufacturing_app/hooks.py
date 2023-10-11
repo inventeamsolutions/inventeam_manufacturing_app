@@ -34,9 +34,7 @@ app_license = "MIT"
 # doctype_tree_js = {"doctype" : "public/js/doctype_tree.js"}
 # doctype_calendar_js = {"doctype" : "public/js/doctype_calendar.js"}
 # include js in doctype views
-doctype_js = {
-	'Stock Entry': 'public/js/custom_stock_entry_script.js'
-	}
+
 
 # Home Pages
 # ----------
